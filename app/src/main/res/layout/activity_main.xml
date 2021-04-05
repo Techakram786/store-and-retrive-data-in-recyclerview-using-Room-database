@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="47dp"
+                android:padding="5dp"
+                android:hint="Employee Name"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="14sp"
+                android:background="@color/transparent"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp">
+
+            </EditText>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background">
+
+
+            <Spinner
+                android:id="@+id/spDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="1dp"
+                android:entries="@array/Spinner_items1">
+
+            </Spinner>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:padding="0dp"
+            android:background="@drawable/edittext_background">
+
+            <Spinner
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="445dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/spDesignation"
+                android:entries="@array/Spinner_items2">
+
+            </Spinner>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:hint="Contect No"
+                android:inputType="number"
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="13dp"
+                android:padding="5dp"
+                android:background="@color/transparent"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp">
+
+            </EditText>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/edittext_background"
+            android:id="@+id/myDatePickerButtonaddvehicle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:text="Joining Date"
+                android:id="@+id/tvSetDate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/transparent"
+                android:padding="5dp"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/calendar"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                app:tint="@color/gray">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+            android:background="#3BB3EC"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:fontFamily="sans-serif-black"
+            android:textSize="14sp">
+
+        </Button>
+<!--        <Button-->
+<!--            android:id="@+id/btn_getData"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+
+<!--            android:background="#3BB3EC"-->
+<!--            android:text="GET DATA"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="#ffff"-->
+<!--            android:fontFamily="sans-serif-black"-->
+<!--            android:textSize="14sp">-->
+
+<!--        </Button>-->
+    </LinearLayout>
+</LinearLayout>

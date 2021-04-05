@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RoomDatabase</string>
+    <string-array name="Spinner_items1">
+        <item>Department</item>
+        <item>Hr</item>
+        <item>Tech</item>
+        <item>Account</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="Spinner_items2">
+        <item>Designation</item>
+        <item>Manager</item>
+        <item>Sr.Consultant</item>
+        <item>Jr.Consultant</item>
+        <item>Trainee</item>
+    </string-array>
+</resources>
